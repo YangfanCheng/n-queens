@@ -9,5 +9,6 @@ Once in game, left click to proceed to next solution.
 I did not make this image, it's from http://chess.wikia.com/wiki/File:Black_Queen_Finish.png
 
 ## screenshot
-![img1](https://raw.github.com/YangfanCheng/n-queens/nqueens.png)
-![img2](https://raw.github.com/YangfanCheng/n-queens/nqueens2.png)
+<a href="url"><img src="https://github.com/YangfanCheng/n-queens/blob/master/nqueens.png" align="left" height="300" width="300" ></a>
+<a href="url"><img src="https://github.com/YangfanCheng/n-queens/blob/master/nqueens2.png" align="left" height="300" width="300" ></a>
+
