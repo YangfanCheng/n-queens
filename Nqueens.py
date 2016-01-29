@@ -39,7 +39,6 @@ def main():
 		x = 0
 		y = 0
 		click = pygame.mouse.get_pressed()
-		print(click)
 		if click[0] == 1:
 			count += 1
 		if count == len(solutions):
@@ -68,11 +67,7 @@ def main():
 			x = item * square_size
 			frame.blit(queen,(x,y))
 			y = y + square_size
-		#pygame.time.wait(3000)
 		pygame.display.update()
-		#count += 1
-		#if count == len(solutions):
-		#	count = 0
 		clock.tick(10)
 	
 	pygame.quit()
@@ -104,7 +99,7 @@ def queensproblem(q):
 #for solution in queensproblem(n,n):
 #   print(solution)
 while True:
-	n = raw_input("hi, please input n for N queens solutions(n > 3)\nkeep in mind the number of solutions ge generated grows at the expoential rate as n gets bigger.\nn should ideally be less than 10 \ninput: ")
+	n = raw_input("hi, please input n for N queens solutions(n > 3).\n\nkeep in mind the number of solutions ge generated grows at the expoential rate as n gets bigger.n should ideally be less than 10 \ninput: ")
 	n = int(n)
 	if n > 3:
 		break
